@@ -1,3 +1,7 @@
+""" The defs module
+
+"""
+
 import math
 from helper import tex_coords
 

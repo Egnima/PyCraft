@@ -1,17 +1,15 @@
+""" The pycraft module
+
+"""
+
 from __future__ import division
 
-import sys
-import math
-import time
 import defs
 
 from helper import *
 from model import Model
 from pyglet.gl import *
 from window import Window
-
-if sys.version_info[0] >= 3:
-    xrange = range
 
 def setup_fog():
     """ Configure the OpenGL fog properties.

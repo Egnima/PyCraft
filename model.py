@@ -1,3 +1,7 @@
+""" The model module
+
+"""
+
 import defs
 import pyglet
 import random
