@@ -1,19 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="91d71b8c-e109-4c23-97d4-4d9c6eae27a5" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/APIHandler.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Util.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/PyCraft.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PyCraft.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/defs.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/helper.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/model.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/pycraft.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/window.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Texture/texture.png" beforeDir="false" />
+    <list default="true" id="91d71b8c-e109-4c23-97d4-4d9c6eae27a5" name="Default" comment="add APIHandler">
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,17 +28,20 @@
         <counts>
           <entry key="dummy" value="12" />
           <entry key="py" value="3561" />
+          <entry key="txt" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="12" />
+          <entry key="PLAIN_TEXT" value="26" />
           <entry key="Python" value="3561" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="LICENSE" value="1" />
+          <entry key="LICENSE" value="2" />
+          <entry key="gitignore" value="1" />
+          <entry key="md" value="1" />
           <entry key="png" value="11" />
           <entry key="py" value="21" />
           <entry key="pyw" value="1" />
@@ -58,7 +50,8 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Image" value="11" />
-          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Markdown" value="1" />
+          <entry key="PLAIN_TEXT" value="3" />
           <entry key="Python" value="22" />
         </counts>
       </usages-collector>
@@ -69,7 +62,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Window.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
@@ -77,6 +70,27 @@
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor>
+                <caret column="9" lean-forward="true" selection-start-column="9" selection-end-column="9" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="104">
+              <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -103,20 +117,6 @@
                 <marker date="1534039202674" expanded="true" signature="39:44" ph="..." />
                 <marker date="1534039202674" expanded="true" signature="39:222" ph="..." />
                 <marker date="1534039202674" expanded="true" signature="39:223" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/APIHandler.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-                <marker date="1534039629918" expanded="true" signature="96:101" ph="..." />
-                <marker date="1534039629918" expanded="true" signature="131:140" ph="..." />
               </folding>
             </state>
           </provider>
@@ -418,7 +418,21 @@
       <option name="project" value="LOCAL" />
       <updated>1532223945386</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add APIHandler">
+      <created>1534052880145</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1534052880146</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add APIHandler">
+      <created>1534053026609</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1534053026609</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView">
@@ -439,12 +453,12 @@
       <window_info id="Favorites" order="2" sideWeight="0.50137365" side_tool="true" weight="0.24960506" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49921012" weight="0.32903227" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49921012" visible="true" weight="0.32903227" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3299539" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49947917" visible="true" weight="0.3281106" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49947917" weight="0.3281106" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5007899" side_tool="true" weight="0.32903227" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Python Console" order="10" />
@@ -479,7 +493,8 @@
     <MESSAGE value="add venv" />
     <MESSAGE value="add venv with pyglet" />
     <MESSAGE value="add src" />
-    <option name="LAST_COMMIT_MESSAGE" value="add src" />
+    <MESSAGE value="add APIHandler" />
+    <option name="LAST_COMMIT_MESSAGE" value="add APIHandler" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Src/window.py" />
@@ -493,13 +508,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LICENSE">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Cube.py">
@@ -613,6 +622,9 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/LICENSE">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/Window.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -620,6 +632,23 @@
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret column="9" lean-forward="true" selection-start-column="9" selection-end-column="9" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
         </state>
       </provider>
     </entry>
