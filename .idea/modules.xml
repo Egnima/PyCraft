@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/PyCraft.iml" filepath="$PROJECT_DIR$/.idea/PyCraft.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../PyCraft_API/.idea/PyCraft_API.iml" filepath="$PROJECT_DIR$/../PyCraft_API/.idea/PyCraft_API.iml" />
     </modules>
   </component>
 </project>
